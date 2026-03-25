@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:4000/api';
+const API_BASE_URL = 'https://full-stack-expense-tracker-website.onrender.com/api';
 
 export const apiCall = async (endpoint, method = 'GET', body = null, includeAuth = true) => {
     const options = {
